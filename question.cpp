@@ -28,15 +28,15 @@ void Question::load()
 
         if(linenum==actualnum)
             content=line;
-        if(linenum+1==actualnum)
+        else if(linenum+1==actualnum)
             answ_a=line;
-        if(linenum+2==actualnum)
+        else if(linenum+2==actualnum)
             answ_b=line;
-        if(linenum+3==actualnum)
+        else if(linenum+3==actualnum)
             answ_c=line;
-        if(linenum+4==actualnum)
+        else if(linenum+4==actualnum)
             answ_d=line;
-        if(linenum+5==actualnum)
+        else if(linenum+5==actualnum)
             goodansw=line;
         actualnum++;
     }
@@ -55,10 +55,9 @@ void Question::ask()
 }
 void Question::check()
 {
-    system("cls");
     if(useransw==goodansw)
     {
-        cout<<"nice that is a good answer!!"<<endl;
+        cout<<"nice that is a good answer!! :)"<<endl;
         points++;
     }
     else
