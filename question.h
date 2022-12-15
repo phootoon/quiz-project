@@ -18,7 +18,7 @@ public:
     int questnumb;
     string goodansw;
     string useransw;
-    int points
+    int points;
 
     void load();
     void ask();

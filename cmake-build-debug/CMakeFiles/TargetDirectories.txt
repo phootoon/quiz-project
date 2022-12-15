@@ -1,0 +1,3 @@
+C:/Users/mrozb/OneDrive/Dokumenty/GitHub/quiz-project/cmake-build-debug/CMakeFiles/quiz_project.dir
+C:/Users/mrozb/OneDrive/Dokumenty/GitHub/quiz-project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mrozb/OneDrive/Dokumenty/GitHub/quiz-project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

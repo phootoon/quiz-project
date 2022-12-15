@@ -1,0 +1,4 @@
+# ninja log v5
+0	295	6927689677278671	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
+3	297	6927689677278671	CMakeFiles/quiz_project.dir/question.cpp.obj	1b5bcb5db27fefdd
+297	467	6927689678974137	quiz_project.exe	9246026e56045b0b

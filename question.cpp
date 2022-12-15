@@ -24,29 +24,22 @@ void Question::load()
 
     while(getline(file,line))
     {
-        switch (actualnum)
-        {
-            case linenum:
-                content=line;
-                break;
-            case linenum+1:
-                answ_a=line;
-                break;
-            case linenum+2:
-                answ_b=line;
-                break;
-            case linenum+3:
-                answ_c=line;
-                break;
-            case linenum+4:
-                answ_d=line;
-                break;
-            case linenum+5:
-                goodansw=line;
-                break;
-        }
+
+        if(linenum==actualnum)
+            content=line;
+        if(linenum+1==actualnum)
+            answ_a=line;
+        if(linenum+2==actualnum)
+            answ_b=line;
+        if(linenum+3==actualnum)
+            answ_c=line;
+        if(linenum+4==actualnum)
+            answ_d=line;
+        if(linenum+5==actualnum)
+            goodansw=line;
+        actualnum++;
     }
-   plik.close
+   file.close();
 }
 void Question::ask()
 {
