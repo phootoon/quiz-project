@@ -4,14 +4,15 @@
 #include <iostream>
 #include "question.h"
 #include <fstream>
-#include <cstdlib>
+#include <stdlib.h>
+
 
 using namespace std;
 
 void Question::load()
 {
     fstream file;
-    file.open("questions.txt",ios::in);
+    file.open("C:\\Users\\mrozb\\OneDrive\\Dokumenty\\GitHub\\quiz-project\\questions.txt",ios::in);
 
     if (file.good()==false)
     {
@@ -47,14 +48,21 @@ void Question::ask()
     cout<<answ_a<<endl;
     cout<<answ_b<<endl;
     cout<<answ_c<<endl;
-    cout<<answ_d<<endl<<endl<<"answer";
+    cout<<answ_d<<endl;
+    cout<<"what is your answer ? "<<endl;
+    cin>>useransw;
 
 }
 void Question::check()
 {
+    system("cls");
     if(useransw==goodansw)
     {
+        cout<<"nice that is a good answer!!"<<endl;
         points++;
     }
+    else
+        cout<<"wrong answer :(("<<endl;
+        _sleep(500);
 
 }

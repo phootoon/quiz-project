@@ -3,6 +3,9 @@
 //
 #include <iostream>
 #include "question.h"
+#include <thread>
+#include <chrono>
+
 
 using namespace std;
 
@@ -13,11 +16,11 @@ int main()
     {
         quest1[i].questnumb=i+1;
         quest1[i].load();
-        quest1[1].ask();
+        quest1[i].ask();
         quest1[i].check();
 
     }
-    cout<<"end of quiz you got :"<<quest1->points<<"point"<<endl;
+    cout<<"end of quiz you got :"<<quest1->points<<" points"<<endl;
 
 
 }
