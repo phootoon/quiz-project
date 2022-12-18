@@ -18,7 +18,7 @@
 
 int main()
 {
-    int numb_of_quest = 5;//max 20
+    int numb_of_quest = 4;//max 20
     int summ = 0;
     int filequestsize = 20; //number of questions in file
     int questord[filequestsize];
@@ -30,8 +30,9 @@ int main()
 
 
     Question quest1[numb_of_quest];
-    for(int i=0; i<=numb_of_quest;i++)
+    for(int i=0; i<numb_of_quest;i++)
     {
+        int a = questord[i];
         quest1[i].questnumb=questord[i]+1;
         quest1[i].load();
         quest1[i].ask();
