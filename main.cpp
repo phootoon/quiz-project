@@ -9,6 +9,7 @@
 #include <shuffle_array.h>
 
 
+
 //using namespace std;
 //void shuffle_array(int *arr,int numofile)
 //{
@@ -18,7 +19,7 @@
 
 int main()
 {
-    int numb_of_quest = 4;//max 20
+    int numb_of_quest = 5;//max 20
     int summ = 0;
     int filequestsize = 20; //number of questions in file
     int questord[filequestsize];
@@ -40,7 +41,17 @@ int main()
         summ+=quest1[i].points;
 
     }
-    cout<<"end of quiz you got :"<<summ<<" points"<<endl;
+    int accuracy=0;
+    try{
+        if(summ != 0)
+        accuracy = (summ*100/numb_of_quest);
+    }
+    catch (...)
+    {
+        accuracy = 0;
+    }
+
+    cout<<"end of quiz you got :"<<summ<<" points"<< " of "<<numb_of_quest<< " possible, which is "<< accuracy<<"%"<<endl;
 
 
 }
