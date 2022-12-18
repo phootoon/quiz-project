@@ -8,4 +8,4 @@ include_directories(.)
 add_executable(quiz_project
         main.cpp
         question.cpp
-        question.h)
+        question.h shuffle_array.h)
