@@ -40,7 +40,7 @@ void Question::load()
             goodansw=line;
         actualnum++;
     }
-   file.close();
+    file.close();
 }
 void Question::ask()
 {
@@ -58,10 +58,10 @@ void Question::check()
     if(useransw==goodansw)
     {
         cout<<"nice that is a good answer!! :)"<<endl;
-        points++;
+        points = 1;
     }
     else
         cout<<"wrong answer :(("<<endl;
-        _sleep(500);
+    _sleep(500);
 
 }

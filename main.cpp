@@ -3,24 +3,26 @@
 //
 #include <iostream>
 #include "question.h"
-#include <thread>
-#include <chrono>
+
 
 
 using namespace std;
 
 int main()
 {
-    Question quest1[5];
-    for(int i=0; i<=4;i++)
+    int numb_of_quest = 5;
+    int summ = 0;
+    Question quest1[numb_of_quest];
+    for(int i=0; i<=numb_of_quest;i++)
     {
         quest1[i].questnumb=i+1;
         quest1[i].load();
         quest1[i].ask();
         quest1[i].check();
+        summ+=quest1[i].points;
 
     }
-    cout<<"end of quiz you got :"<<quest1->points<<" points"<<endl;
+    cout<<"end of quiz you got :"<<summ<<" points"<<endl;
 
 
 }
