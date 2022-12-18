@@ -3,9 +3,6 @@
 //
 #include <iostream>
 #include "question.h"
-#include <chrono>
-#include <algorithm>
-#include <random>
 #include <shuffle_array.h>
 
 
@@ -19,15 +16,32 @@
 
 int main()
 {
-    int numb_of_quest = 5;//max 20
+    int numb_of_quest = 0;//max 20
     int summ = 0;
     int filequestsize = 20; //number of questions in file
+    int accuracy=0;
     int questord[filequestsize];
     for (int  i = 0; i<filequestsize; i++)
     {
         questord[i]=i;
     }
     Shuffle_array(questord,filequestsize);
+
+    try{
+        if (numb_of_quest>20)
+        {
+            numb_of_quest = 20;
+            cout << "lalal";
+        }
+        else if(numb_of_quest<=0)
+        {
+            numb_of_quest=1;
+        }
+
+    }
+    catch (...)
+    {
+    }
 
 
     Question quest1[numb_of_quest];
@@ -41,16 +55,7 @@ int main()
         summ+=quest1[i].points;
 
     }
-    int accuracy=0;
-    try{
-        if(summ != 0)
-        accuracy = (summ*100/numb_of_quest);
-    }
-    catch (...)
-    {
-        accuracy = 0;
-    }
-
+    accuracy = summ*100/numb_of_quest;
     cout<<"end of quiz you got :"<<summ<<" points"<< " of "<<numb_of_quest<< " possible, which is "<< accuracy<<"%"<<endl;
 
 
