@@ -1,23 +1,7 @@
 # ninja log v5
 2	36	6930861778131434	CMakeFiles/quiz_project.dir/shuffled_array.cpp.obj	b8e6b1e7c226bb94
-2	385	6930960737355646	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
-1	112	6930875546980250	build.ninja	a28ca004754ae53a
+2	387	6930965653173443	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
+1	112	6931453151309077	build.ninja	a28ca004754ae53a
 5	282	6930901006437315	CMakeFiles/quiz_project.dir/question.cpp.obj	1b5bcb5db27fefdd
 2	35	6930873768062031	CMakeFiles/quiz_project.dir/shuffle_array.cpp.obj	9cc78d02e15a2acc
-385	447	6930960737954039	quiz_project.exe	9246026e56045b0b
-2	383	6930961168070605	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
-383	446	6930961168679024	quiz_project.exe	9246026e56045b0b
-2	381	6930961850189141	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
-383	446	6930961850817499	quiz_project.exe	9246026e56045b0b
-2	376	6930963237563963	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
-377	439	6930963238162363	quiz_project.exe	9246026e56045b0b
-2	382	6930964999155195	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
-382	445	6930964999763699	quiz_project.exe	9246026e56045b0b
-2	382	6930965090667964	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
-383	452	6930965091355552	quiz_project.exe	9246026e56045b0b
-2	368	6930965430295184	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
-369	432	6930965430913915	quiz_project.exe	9246026e56045b0b
-1	385	6930965575266407	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
-385	450	6930965575894767	quiz_project.exe	9246026e56045b0b
-2	387	6930965653173443	CMakeFiles/quiz_project.dir/main.cpp.obj	e49c4e155d158e3d
 388	451	6930965653787178	quiz_project.exe	9246026e56045b0b

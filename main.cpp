@@ -7,12 +7,7 @@
 
 
 
-//using namespace std;
-//void shuffle_array(int *arr,int numofile)
-//{
-//    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
-//    std::shuffle(arr,arr+numofile,std::default_random_engine(seed));
-//}
+
 
 int main()
 {
