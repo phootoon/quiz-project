@@ -26,11 +26,13 @@ int main()
         if (numb_of_quest>20)
         {
             numb_of_quest = 20;
-            cout << "lalal";
+            cout << "number of questions changed to 20"<<endl;
         }
         else if(numb_of_quest<=0)
         {
             numb_of_quest=1;
+            cout << "number of questions changed to 1"<<endl;
+
         }
 
     }
